@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_back"
+    tools:context="com.apkglobal.prototype.LoginActivity">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:inputType="textCapWords"
+        android:hint="Enter Your Name"
+        android:textColorHint="#1d3af7"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/et_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:layout_margin="20dp"
+        android:hint="Enter Mobile Number"
+        android:inputType="phone"
+        android:textColorHint="#1d3af7"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_mobile"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_background"
+        android:text="LOGIN"
+        android:textColor="#ff4032"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

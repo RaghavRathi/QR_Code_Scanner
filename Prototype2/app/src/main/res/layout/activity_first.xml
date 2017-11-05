@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_back"
+    android:orientation="vertical"
+    tools:context="com.apkglobal.prototype.FirstActivity">
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="serif"
+        android:text="Scan QR Code"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/tv_qrcode_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_scan"
+        android:layout_margin="10dp"
+        android:hint="QR CODE"
+        android:textColorHint="#ff2828"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_background"
+        android:fontFamily="serif"
+        android:text="GO TO LAST ACTIVITY"
+        android:textSize="24dp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
